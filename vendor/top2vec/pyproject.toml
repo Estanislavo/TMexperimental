@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "top2vec"
+version = "1.0.36+vendored"
+description = "Vendored Top2Vec with contextual_top2vec support"
+authors = ["Top2Vec authors"]
+license = "Apache-2.0"
+packages = [{ include = "top2vec" }]
+
+[build-system]
+requires = ["poetry-core>=1.6.0"]
+build-backend = "poetry.core.masonry.api"

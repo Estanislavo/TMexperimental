@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "tmexperimental"
+authors = ["Enyagin Stanislav <engestaeng@gmail.com>"]
+version = "0.1.0"
+description = "Эксперименты и сравнение тематических моделей: gensim LDA / BigARTM / Contextual-Top2Vec на собственных корпусах и корпусах OCTIS"
+readme = "README.md"
+packages = [{ include = "tmexperimental" }]
+
+[tool.poetry.dependencies]
+
+python = ">=3.10,<3.12"
+numpy = "1.24.4"
+scipy = "1.9.3"
+pandas = "2.2.2"
+scikit-learn = "1.1.0"
+octis = "1.14.0"
+gensim = "4.3.3"
+umap-learn = "0.5.3"
+hdbscan = "0.8.33"
+protobuf = "3.20.3"
+bigartm = "0.9.2"
+top2vec = { path = "vendor/top2vec", develop = false }
+wordcloud = "1.9.3"
+
+[tool.poetry.scripts]
+tmexp-benchmark = "tmexperimental.eval:main"
+
+[build-system]
+requires = ["poetry-core>=1.6.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,9 @@
+pyproject.toml
+top2vec/__init__.py
+top2vec/embedding.py
+top2vec/top2vec.py
+top2vec.egg-info/PKG-INFO
+top2vec.egg-info/SOURCES.txt
+top2vec.egg-info/dependency_links.txt
+top2vec.egg-info/top_level.txt
+top2vec/tests/test_top2vec.py

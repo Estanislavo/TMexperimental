@@ -37,7 +37,7 @@ curl -sSL https://install.python-poetry.org | python3 -
 
 2) Клонируем репозиторий и переходим в него:
 ```bash
-git clone <url> TMExperimental
+git clone https://github.com/Estanislavo/TMexperimental.git
 cd TMExperimental
 ```
 
